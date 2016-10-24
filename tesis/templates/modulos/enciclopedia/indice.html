@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Bordered Table</h2>
+  <p>The .table-bordered class adds borders to a table:</p>
+
+
+    <div class="container">
+  <h2>Basic List Group</h2>
+  <ul class="list-group">
+
+      {% for categoria in categorias %}
+        <li class="list-group-item">
+
+                {{ categoria.nombre }}
+                    <ul class="list-group">
+                        {% for articulo in categoria.articulos %}
+                            <li class="list-group-item"> <a href="/contenido/{{ articulo.pk }}/" >{{ articulo.titulo }}</a> </li>
+
+                        {% endfor %}
+
+                    </ul>
+
+        </li>
+      {% endfor %}
+
+  </ul>
+</div>
+
+</div>
+
+</body>
+</html>
+

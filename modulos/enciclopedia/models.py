@@ -29,6 +29,9 @@ class Categoria(Maestra):
             return u'%s / %s' % (self.sub_categoria.nombre,self.nombre)
         return u'%s ' % self.nombre
 
+    @property
+    def articulos(self):
+        return Articulo.objects.filter(categoria=self)
 
     class Meta(Maestra.Meta):
         verbose_name = u"Categoria"
