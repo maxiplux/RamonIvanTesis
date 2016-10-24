@@ -5,6 +5,7 @@ django-autoslug==1.9.3
 django-colorfield==0.1.10
 django-import-export==0.5.1
 django-tinymce==2.4.0
+gunicorn==19.6.0
 Pillow==3.4.2
 python-dateutil==2.5.3
 six==1.10.0
