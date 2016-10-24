@@ -48,6 +48,8 @@ INSTALLED_APPS = [
     'modulos.utilidades',
     'modulos.maestras',
     'tinymce',
+    'autofixture',
+    'import_export',
 ]
 
 MIDDLEWARE_CLASSES = [

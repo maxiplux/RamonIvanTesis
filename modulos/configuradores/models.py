@@ -1,7 +1,7 @@
 # -*- coding: cp1252 -*-
 from __future__ import unicode_literals
 import pyclbr
-from colorfield.fields import ColorField
+
 
 from django.db import models
 

@@ -75,3 +75,4 @@ def clases():
             yield eval(clase)
 
 
+#python manage.py loadtestdata enciclopedia.Categoria:5 enciclopedia.Articulo:20 enciclopedia.Imagen:20
