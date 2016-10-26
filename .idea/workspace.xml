@@ -89,8 +89,8 @@
       <file leaf-file-name="contenido.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tesis/templates/modulos/enciclopedia/contenido.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63744074">
-              <caret line="45" column="59" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.45616114">
+              <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -734,8 +734,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tesis/templates/modulos/enciclopedia/contenido.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63744074">
-          <caret line="45" column="59" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.45616114">
+          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
           <folding />
         </state>
       </provider>
