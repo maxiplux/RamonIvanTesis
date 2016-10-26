@@ -24,10 +24,18 @@ class Portada(Maestra):
 
 class Categoria(Maestra):
     sub_categoria=models.ForeignKey('self',null=True,blank=True)
+    descripcion = models.CharField(max_length=255, blank=True)
+    orden = models.PositiveIntegerField(default=0,null=True,blank=True)
+    primaria = models.BooleanField(default=False)
+
     def __unicode__(self):
         if self.sub_categoria:
             return u'%s / %s' % (self.sub_categoria.nombre,self.nombre)
         return u'%s ' % self.nombre
+
+    @property
+    def lista_subcategorias(self):
+        return Categoria.objects.filter(sub_categoria=self).order_by('-orden')
 
     @property
     def articulos(self):
@@ -43,6 +51,7 @@ class Articulo(MaestraSimple):
     categoria=models.ForeignKey(Categoria)
     titulo = models.CharField(max_length=255, blank=True, unique=True)
     slug = AutoSlugField(populate_from='titulo', unique=True)
+    pagina = models.PositiveIntegerField(default=0,null=True,blank=True)
 
 
     resumen=HTMLField(null=True,blank=True)

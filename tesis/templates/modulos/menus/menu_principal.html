@@ -1,0 +1,32 @@
+<div class="content_menu">
+    <ul>
+        {% for categoria in categorias %}
+        <li><a href="#" class="pri_fil e">{{ categoria.nomre }}<span class="esplicacion">{{ categoria.descripcion }}</span></a>
+
+            <ul class="dorpdown">
+
+
+                {% for subcategoria in categorias.lista_subcategorias %}
+                <li>
+                	<a href="#" class="sec_fil e">{{ subcategoria.nombre }}</a>
+
+                    <ul class="dorpdowned">
+
+                        {% for articulo in subcategoria.articulos %}
+                            <li > <a href="/contenido/{{ articulo.pk }}/" >{{ subcategoria.orden }}.{{ articulo.pagina }} {{ articulo.titulo }}</a> </li>
+                        {% endfor %}
+
+
+                    </ul>
+
+                </li>
+                    {% endfor %}
+
+            </ul>
+        </li>
+        {% endfor %}
+        <!--<li><a href="#" class="pri_fil">Tejido Animal<span class="esplicacion">Descripción de la pagina, corto resumen dee qué va a leer aquí</span></a></li>
+        <li><a href="#" class="pri_fil">Tejido Vegetal<span class="esplicacion">Descripción de la pagina, corto resumen dee qué va a leer aquí</span></a></li>-->
+        <div class="clear"></div>
+    </ul>
+</div>

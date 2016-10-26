@@ -1,0 +1,218 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	margin:0 !important; 
+	padding:0 !important;
+	background: rgba(107,203,255,1);
+	background: -moz-linear-gradient(top, rgba(107,203,255,1) 0%, rgba(103,151,255,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(107,203,255,1)), color-stop(100%, rgba(103,151,255,1)));
+	background: -webkit-linear-gradient(top, rgba(107,203,255,1) 0%, rgba(103,151,255,1) 100%);
+	background: -o-linear-gradient(top, rgba(107,203,255,1) 0%, rgba(103,151,255,1) 100%);
+	background: -ms-linear-gradient(top, rgba(107,203,255,1) 0%, rgba(103,151,255,1) 100%);
+	background: linear-gradient(to bottom, rgba(107,203,255,1) 0%, rgba(103,151,255,1) 100%);
+	overflow:hidden;
+	font-family: 'Montserrat', sans-serif;
+}
+#menu{
+	position:fixed;
+	top:0;
+	left:0;
+	width: 92%;
+	padding: 20px 4%;
+	z-index:30;
+}
+#paged{
+	padding:80px 4% 40px;
+	position:relative;
+}
+#content{
+	background:#fff;
+	border-radius:8px;
+	margin-top:20px;
+	overflow:hidden;
+	height:430px;
+	/*filter:blur(5px);*/
+	overflow-y:scroll;
+}
+.content{
+	/*filter:blur(5px);*/
+}
+.blured{
+	filter:blur(1.5px);
+}
+#content{
+}
+.icon_menu{
+	font-size:10px;
+	color:#fff;
+	float:left;
+	font-weight:300;
+	display:none;
+}
+.icon_menu li{
+	float:left;
+	width:60px;
+	text-align:center;
+	margin-right:10px;
+	position:relative;
+	margin-top:-80px;
+}
+.icon_menu h3{
+	margin: 5px 0;
+}
+.icon_menu a{
+	color:#fff;
+	text-decoration:none;
+}
+.icon_menu li .icon{
+	width:40px;
+	height:40px;
+	line-height:30px;
+	background:#fff no-repeat center;
+	border-radius:140px;
+	margin:0 auto;
+}
+
+#icon_indice .icon,  .icon{
+	background-image:url(../imagenes/icon.png) !important;
+}
+#icon_indice.closer_black .icon {
+    background-image:url(../imagenes/closer_black.png) !important;
+}
+.icon_menu li img{
+	padding:10px;
+}
+.clear{
+	clear:both;
+}
+ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.iconed.ini.fin, .iconed.ini{
+	background:url(../imagenes/iconed.png) no-repeat center right;
+}
+.iconed.fin{
+	background:url(../imagenes/closer_white.png) no-repeat center right;
+}
+.iconed{
+	float:right;
+	line-height:40px;
+	color:#fff;
+	font-size:13px;
+	height:40px;
+	padding-right:34px;
+	
+}
+.iconed img{
+	float: right;
+	margin-left: 10px;
+	width: 18px;
+	margin-top: 14px;
+}
+.unselected{
+	opacity:.4;
+}
+.content_menu{
+	position: fixed;
+	width: 92%;
+	min-height: 480px;
+	z-index: 20;
+	background: #fff;
+	border-radius: 0px;
+	height: 68%;
+	top: 0;
+	overflow-y: scroll;
+	margin: 90px 4% 0;
+	border-radius: 10px;
+	display:none;
+}
+.content_menu ul li{
+	border-bottom:1px solid #ddd;
+}
+.content_menu ul li a{
+	display:inline-block;
+	width: 83%;
+	padding: 15px 4% 15px 13%;
+	color:#333;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:11px;
+	background:url(../imagenes/bolita_menu.png) no-repeat 11px center;
+}
+
+.content_menu ul li a span{
+	font-weight:normal;
+	display:block;
+	color:#666;
+}
+.content_menu .dorpdown li a{		
+	width:74%;		
+	padding: 17px 4% 17px 22% !important;
+	background:url(../imagenes/bola_menu.png) no-repeat 44px center;
+}
+.content_menu .dorpdown .dorpdowned li a{
+	width: 64%;
+	padding: 17px 4% 17px 32% !important;
+	background:url(../imagenes/bola-menu.png) no-repeat 70px center;
+}
+.dorpdown,  .dorpdowned{
+	display:none;
+}
+/*pagina Interna*/
+
+.header_left{
+	text-align:center;
+	background-color:#ffeb32;
+	width: 25%;
+	padding: 20px 0px !important;
+	float:left
+}
+
+.header_right{
+	text-align:left;
+	width: 72%;
+	float:right;
+}
+.header_right{
+	height:130px
+}
+.header_left h1, .header_left h5{
+	margin:0;
+	font-weight:normal;
+	
+}
+.header_left h1{
+	font-size:50px;
+	
+}
+.content_inter{
+	width:92%;
+	padding:10px 4%;
+	text-align:justify;
+	font-size:12px;
+}
+.content_inter h4{
+	margin:0;
+}
+.content_inter h5{
+	font-weight:normal;
+	margin:0;
+}
+img{
+	max-width:100%;
+	margin:10px 0;
+}
+.footer_app img{
+	margin:0;
+	padding: 0;
+	width: 94%;
+	margin: 0 3%;
+}
+.footer_app h5{
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-weight: lighter;
+	font-size: 12px;
+}
