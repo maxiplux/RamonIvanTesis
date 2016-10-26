@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73f7921e-dc65-4ec4-8568-ceab81c35bc5" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\franc\Documents\proyectos\python27\tesis\final\tesis\tesis\static\media_tesis\css\style.css" afterPath="$PROJECT_DIR$/tesis/media/media_tesis/css/style.css" />
-      <change type="MOVED" beforePath="C:\Users\franc\Documents\proyectos\python27\tesis\final\tesis\tesis\static\media_tesis\imagenes\bola-menu.png" afterPath="$PROJECT_DIR$/tesis/media/media_tesis/imagenes/bola-menu.png" />
-      <change type="MOVED" beforePath="C:\Users\franc\Documents\proyectos\python27\tesis\final\tesis\tesis\static\media_tesis\imagenes\bola_menu.png" afterPath="$PROJECT_DIR$/tesis/media/media_tesis/imagenes/bola_menu.png" />
-      <change type="MOVED" beforePath="C:\Users\franc\Documents\proyectos\python27\tesis\final\tesis\tesis\static\media_tesis\imagenes\bolita_menu.png" afterPath="$PROJECT_DIR$/tesis/media/media_tesis/imagenes/bolita_menu.png" />
-      <change type="MOVED" beforePath="C:\Users\franc\Documents\proyectos\python27\tesis\final\tesis\tesis\static\media_tesis\imagenes\closer_black.png" afterPath="$PROJECT_DIR$/tesis/media/media_tesis/imagenes/closer_black.png" />
-      <change type="MOVED" beforePath="C:\Users\franc\Documents\proyectos\python27\tesis\final\tesis\tesis\static\media_tesis\imagenes\closer_white.png" afterPath="$PROJECT_DIR$/tesis/media/media_tesis/imagenes/closer_white.png" />
-      <change type="MOVED" beforePath="C:\Users\franc\Documents\proyectos\python27\tesis\final\tesis\tesis\static\media_tesis\imagenes\footer_pagina_inter.png" afterPath="$PROJECT_DIR$/tesis/media/media_tesis/imagenes/footer_pagina_inter.png" />
-      <change type="MOVED" beforePath="C:\Users\franc\Documents\proyectos\python27\tesis\final\tesis\tesis\static\media_tesis\imagenes\icon.png" afterPath="$PROJECT_DIR$/tesis/media/media_tesis/imagenes/icon.png" />
-      <change type="MOVED" beforePath="C:\Users\franc\Documents\proyectos\python27\tesis\final\tesis\tesis\static\media_tesis\imagenes\iconed.png" afterPath="$PROJECT_DIR$/tesis/media/media_tesis/imagenes/iconed.png" />
-      <change type="MOVED" beforePath="C:\Users\franc\Documents\proyectos\python27\tesis\final\tesis\tesis\static\media_tesis\imagenes\imagen_inter.jpg" afterPath="$PROJECT_DIR$/tesis/media/media_tesis/imagenes/imagen_inter.jpg" />
-      <change type="MOVED" beforePath="C:\Users\franc\Documents\proyectos\python27\tesis\final\tesis\tesis\static\media_tesis\js\script.js" afterPath="$PROJECT_DIR$/tesis/media/media_tesis/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modulos/enciclopedia/admin.py" afterPath="$PROJECT_DIR$/modulos/enciclopedia/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis/templates/modulos/enciclopedia/contenido.html" afterPath="$PROJECT_DIR$/tesis/templates/modulos/enciclopedia/contenido.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis/templates/modulos/enciclopedia/indice.html" afterPath="$PROJECT_DIR$/tesis/templates/modulos/enciclopedia/indice.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis/templates/modulos/menus/menu_principal.html" afterPath="$PROJECT_DIR$/tesis/templates/modulos/menus/menu_principal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modulos/enciclopedia/models.py" afterPath="$PROJECT_DIR$/modulos/enciclopedia/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis/settings.py" afterPath="$PROJECT_DIR$/tesis/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis/urls.py" afterPath="$PROJECT_DIR$/tesis/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modulos/enciclopedia/views.py" afterPath="$PROJECT_DIR$/modulos/enciclopedia/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/updatesindb.py" afterPath="$PROJECT_DIR$/updatesindb.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tesis.iws" />
@@ -89,8 +70,8 @@
       <file leaf-file-name="updatesindb.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/updatesindb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09770115">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.12099644">
+              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -734,8 +715,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/updatesindb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09770115">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.12099644">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
           <folding />
         </state>
       </provider>
