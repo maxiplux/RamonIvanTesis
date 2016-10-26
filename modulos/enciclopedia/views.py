@@ -21,5 +21,8 @@ def indice(request):
 
 def contenido(request,pk):
     articulo=get_object_or_404(Articulo,pk=pk)
-    data={'articulo':articulo}
+    categorias=Categoria.objects.filter(primaria=True).order_by("-orden")
+
+
+    data={'articulo_detalle':articulo,'categorias':categorias}
     return render(request, 'modulos/enciclopedia/contenido.html', data)

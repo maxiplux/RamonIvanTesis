@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73f7921e-dc65-4ec4-8568-ceab81c35bc5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tesis/templates/modulos/menus/menu_principal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis/templates/modulos/enciclopedia/contenido.html" afterPath="$PROJECT_DIR$/tesis/templates/modulos/enciclopedia/contenido.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis/templates/modulos/enciclopedia/indice.html" afterPath="$PROJECT_DIR$/tesis/templates/modulos/enciclopedia/indice.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modulos/enciclopedia/models.py" afterPath="$PROJECT_DIR$/modulos/enciclopedia/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modulos/enciclopedia/views.py" afterPath="$PROJECT_DIR$/modulos/enciclopedia/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tesis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modulos/enciclopedia/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.508046">
+              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -87,8 +83,8 @@
       <file leaf-file-name="indice.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tesis/templates/modulos/enciclopedia/indice.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state vertical-scroll-proportion="-8.5">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="49" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -96,13 +92,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contenido.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contenido.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tesis/templates/modulos/enciclopedia/contenido.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.87914693">
-              <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+            <state vertical-scroll-proportion="-9.769231">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,11 +136,11 @@
         <option value="$PROJECT_DIR$/modulos/enciclopedia/admin.py" />
         <option value="$PROJECT_DIR$/tesis/urls.py" />
         <option value="$PROJECT_DIR$/modulos/enciclopedia/urls.py" />
-        <option value="$PROJECT_DIR$/modulos/enciclopedia/views.py" />
         <option value="$PROJECT_DIR$/modulos/enciclopedia/models.py" />
         <option value="$PROJECT_DIR$/tesis/templates/modulos/menus/menu_principal.html" />
         <option value="$PROJECT_DIR$/tesis/templates/modulos/enciclopedia/indice.html" />
         <option value="$PROJECT_DIR$/tesis/templates/modulos/enciclopedia/contenido.html" />
+        <option value="$PROJECT_DIR$/modulos/enciclopedia/views.py" />
       </list>
     </option>
   </component>
@@ -666,14 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modulos/enciclopedia/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modulos/enciclopedia/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -694,8 +682,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tesis/templates/modulos/enciclopedia/indice.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="49" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -704,11 +692,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tesis/templates/modulos/enciclopedia/contenido.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.87914693">
-          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+        <state vertical-scroll-proportion="-9.769231">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/enciclopedia/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.508046">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
