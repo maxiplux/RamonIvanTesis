@@ -16,6 +16,7 @@ def portada(request, pk):
 def indice(request):
     categorias=Categoria.objects.filter(primaria=True).order_by("-orden")
     data={'categorias':categorias}
+
     return render(request, 'modulos/enciclopedia/indice.html', data)
 
 

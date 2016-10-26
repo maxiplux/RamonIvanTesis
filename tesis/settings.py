@@ -87,6 +87,12 @@ TEMPLATES = [
     },
 ]
 
+TEMPLATE_LOADERS = (
+    'django.template.loaders.filesystem.Loader',
+    'django.template.loaders.app_directories.Loader',
+#     'django.template.loaders.eggs.Loader',
+)
+
 WSGI_APPLICATION = 'tesis.wsgi.application'
 
 
@@ -146,3 +152,21 @@ ADMINS = (
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.normpath(os.path.join(PROJECT_PATH, 'static/'))
+
+
+# Absolute filesystem path to the directory that will hold user-uploaded files.
+# Example: "/var/www/example.com/media/"
+MEDIA_ROOT  = os.path.normpath(os.path.join(PROJECT_PATH, 'media/'))
+
+
+# URL that handles the media served from MEDIA_ROOT. Make sure to use a
+# trailing slash.
+# Examples: "http://media.lawrence.com/media/", "http://example.com/media/"
+MEDIA_URL = '/media/'
+
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+#    'django.contrib.staticfiles.finders.DefaultStorageFinder',
+)
+STATIC_FINDERS= STATICFILES_FINDERS

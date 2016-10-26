@@ -83,7 +83,7 @@ class Imagen(MaestraSimple):
 
 def clases():
     for clase in pyclbr.readmodule(__name__).keys():
-        if clase not in ['Imagen','Articulo']:
+        if clase not in ['Imagen','Categoria','Articulo']:
             yield eval(clase)
 
 
